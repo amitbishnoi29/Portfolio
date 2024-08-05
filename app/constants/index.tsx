@@ -15,11 +15,11 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Front End Developer",
+		title: "ReactJs Developer",
 		icon: "/web.webp",
 	},
 	{
-		title: "ReactJs/NextJs Developer",
+		title: "NextJs Developer",
 		icon: "/mobile.webp",
 	},
 	{
@@ -86,9 +86,8 @@ const experiences = [
 			"Implemented authentication mechanisms, including secure login and session management, and used middleware to authenticate routes, protecting user data and maintaining application integrity.",
 			"Utilized server-side rendering (SSR) to optimize page load times and enhance SEO.",
 			"Collaborated with the UI/UX design team to ensure design consistency and functionality. Converted Figma designs to pixel-perfect code.",
-			"Designed and implemented the user interface using Figma designs for a comprehensive Dealership Management Application using React.",
+			"Built the user interface using Figma designs for a comprehensive Dealership Management Application using React.",
 			"Structured the application following best practices for file organization and modularity, enhancing code readability and maintainability.",
-			"Created a Portfolio Builder section allowing users to search and select dealerships based on radius, state, and brand.",
 			"Integrated Leaflet maps into the application, customizing markers to visually represent dealership locations.",
 		],
 	},
@@ -126,7 +125,7 @@ const testimonials = [
 		image: "/socialmedia/linkedin.svg",
 		link: "https://www.linkedin.com/in/amit--bishnoi/",
 	},
-	
+
 	{
 		id: 4,
 		testimonial:
@@ -149,7 +148,7 @@ const projects = [
 	{
 		name: "FinTech - Revoult Clone",
 		description:
-			"Developed a cross-platform React Native FinTech app inspired by Revolut, featuring secure SMS OTP authentication via Clerk and dynamic data visualization with Victory Native XL charts. Utilized Zustand and MMKV for state management and Expo Router for streamlined navigation.",
+			"Developed a cross-platform React Native FinTech app inspired by Revoult, featuring secure SMS OTP authentication via Clerk and data visualization with Victory Native XL charts. Utilized Expo Router for streamlined navigation.",
 		tags: [
 			{
 				name: "react native",
@@ -220,7 +219,7 @@ const projects = [
 	{
 		name: "U-Cinema - A Youtube Clone",
 		description:
-			"U-Cinema is a YouTube clone project built with React, Material UI, and Tailwind CSS. The platform has been designed with a stunning dark mode that enhances the viewing experience. The user interface is intuitive and easy to navigate, ensuring that users can easily find the content they're looking for.",
+			"U-Cinema is a YouTube clone project built with React, Material UI, and Tailwind CSS. The platform has been designed with a stunning dark mode that enhances the viewing experience.",
 		tags: [
 			{
 				name: "react",
@@ -239,24 +238,7 @@ const projects = [
 		source_code_link: "https://github.com/amitbishnoi29",
 		netlify_link: "https://u-cinema.netlify.app/",
 	},
-	{
-		name: "Monday.com Clone",
-		description:
-			"A Monday.com clone built using HTML and CSS.",
-		tags: [
-			{
-				name: "Html",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "Css",
-				color: "orange-text-gradient",
-			},
-		],
-		image: "/projectimg/monday.webp",
-		source_code_link: "https://github.com/amitbishnoi29",
-		netlify_link: "https://amitbishnoi.netlify.app/",
-	},
+	
 	{
 		name: "Portfolio",
 		description:
@@ -278,6 +260,24 @@ const projects = [
 		image: "/projectimg/portfolio.webp",
 		source_code_link: "https://github.com/omunite215/portfolio",
 		netlify_link: "https://portfoliobyompatel.netlify.app/",
+	},
+	{
+		name: "Monday.com Clone",
+		description:
+			"A Monday.com clone built using HTML and CSS.",
+		tags: [
+			{
+				name: "Html",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Css",
+				color: "orange-text-gradient",
+			},
+		],
+		image: "/projectimg/monday.webp",
+		source_code_link: "https://github.com/amitbishnoi29",
+		netlify_link: "https://amitbishnoi.netlify.app/",
 	},
 ];
 
