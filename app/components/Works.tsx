@@ -38,7 +38,7 @@ const ProjectCard = ({
 					scale: 1,
 					speed: 450,
 				}}
-				className="bg-tertiary shadow-md p-5 rounded-2xl sm:w-[360px] w-full"
+				className="bg-tertiary flex flex-col shadow-md p-5 rounded-2xl sm:w-[360px] w-full"
 			>
 				<div className="relative w-full h-[230px]">
 					<Image
@@ -120,7 +120,7 @@ const Works = () => {
 				</motion.p>
 			</div>
 
-			<div className="mt-20 flex flex-wrap gap-7">
+			<div className="mt-20 flex flex-wrap justify-center gap-7">
 				{projects.map((project, index) => (
 					<ProjectCard key={`project-${index}`} index={index} {...project} />
 				))}

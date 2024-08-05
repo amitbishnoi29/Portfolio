@@ -130,10 +130,10 @@ const testimonials = [
 	{
 		id: 4,
 		testimonial:
-			"Also do check out my UI/UX Portfolio where I have shared by design studies.",
+			"Also do check out my Portfolio where I have shared by past experience and projects.",
 		name: "Amit Bishnoi",
 		image: "/socialmedia/portfolio.svg",
-		link: "https://omthecreator.netlify.app/",
+		link: "https://amitbishnoi.vercel.app/",
 	},
 	{
 		id: 5,

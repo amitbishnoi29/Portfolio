@@ -28,7 +28,7 @@ const Navbar = () => {
 	return (
 		<nav
 			className={`paddingX
-			w-full flex items-center py-3 fixed top-0 z-20 shadow ${
+			w-full flex items-center py-1 fixed top-0 z-20 shadow ${
 				scrolled ? "backdrop-blur-md shadow-md" : "bg-transparent"
 			}`}
 		>
@@ -51,7 +51,7 @@ const Navbar = () => {
 							className="object-contain"
 						/>
 					</Link>
-					<p className="text-secondary text-[18px] font-bold cursor-pointer flex">
+					<p className="text-primary font-bold cursor-pointer flex">
 						Amit &nbsp; <span className="sm:block hidden ">| amitbishnoi29</span>
 					</p>
 				</div>
@@ -63,7 +63,7 @@ const Navbar = () => {
 							key={nav.id}
 							className={`${
 								active === nav.title ? "text-primary" : "text-secondary"
-							} hover:text-primary text-[18px] font-medium cursor-pointer`}
+							} hover:text-primary  font-medium cursor-pointer`}
 							onClick={() => setActive(nav.title)}
 						>
 							<Link href={`#${nav.id}`}>{nav.title}</Link>

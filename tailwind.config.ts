@@ -17,7 +17,7 @@ const config: Config = {
 				primary: "#42376C",
 				// secondary: "#aaa6c3",
 				// secondary: "#828285",
-				secondary: "#68686b",
+				secondary: "#665566",
 				// tertiary: "#151030",
 				tertiary: "white",
 				"black-100": "whitesmoke",
