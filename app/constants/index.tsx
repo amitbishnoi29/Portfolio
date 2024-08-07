@@ -190,10 +190,10 @@ const projects = [
 				color: "orange-text-gradient",
 			},
 		],
-		image: "/projectimg/Fintech.webp",
+		image: "/projectimg/motv.webp",
 		source_code_link:
 			"https://github.com/amitbishnoi29/Fintech",
-		netlify_link: "https://github.com/amitbishnoi29/Fintech",
+		netlify_link: "https://motv.netlify.app",
 	},
 	{
 		name: "Cryptoverse",
