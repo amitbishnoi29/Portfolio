@@ -12,7 +12,7 @@ import {
 
 export default function Home() {
 	return (
-		<div className="relative z-0 bg-hero-pattern font-sans">
+		<div className=" relative z-0 bg-hero-pattern font-sans">
 			{/* <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> */}
 			<div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
 				<Navbar />

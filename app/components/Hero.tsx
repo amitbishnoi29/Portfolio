@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { ComputersCanvas } from "./canvas";
+import Image from "next/image";
 
 const Hero = () => {
 	return (
@@ -22,7 +23,17 @@ const Hero = () => {
 						{/* <br className="sm:block hidden" />& UI/UX Designer */}
 					</p>
 				</div>
+				{/* <div className="paddingX  inset-0 max-w-7xl mx-auto flex flex-row justify-center items-center gap-5">
+					<Image
+						src='/programming.png'
+						alt="laptop"
+						// width={''}
+						width={'300'}
+						height={'300'}
+					/>
+				</div> */}
 			</div>
+
 			{/* <ComputersCanvas /> */}
 			{/* <div className="absolute xs:bottom-2 bottom-32 w-full flex justify-center items-center">
 				<a href="#about">
